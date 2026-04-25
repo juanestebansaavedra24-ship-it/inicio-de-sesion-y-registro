@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: transparent  !important;
+    max-width: 295px;
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.navbar-brand:hover{
+    background-color: #1d055f;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+body{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.fondo{
+    background-image: url(img/lobooo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.btn{
+    background-color: #000000b9;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    border-color: #000000b9;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #1d055f;
+    color: white;
+    border-color: #000000;
+}
+
+.modal-content
+{
+    background-image: url(img/lobofondoo.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 20px;
+}
+.btn-close{
+    background-color: white;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-footer{
+    border-top: none;
+}
+.mb-3 input{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.mb-3 :hover{
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.5);
+    color: white;
+
+}
+
+.mb-3 input:focus{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cards{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-height: 700px;
+   order: 1;
+   max-width: 400px;
+}
+
+.card{
+  overflow: hidden;
+  transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  width: 20%;
+  max-width: 600px;
+  border: none;
+  border-radius: 5px;
+}
+
+.card:hover{
+  width: 100%;
+  transition: all 2s;
+}
+
+.card img{
+  width: 300px;
+  height: 400px;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.card:hover img{
+  transition: all 2s;
+  transform:scale(1.10)
+}
+
